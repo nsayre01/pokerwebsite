@@ -6,24 +6,26 @@
 
     <br>
 
+   
     <!-- Button to start game on new line -->
     <router-link to="/selection">
-    <button>START</button>
+    <button class="titlebuttons">START</button>
     </router-link>
 
     <br>
 
     <!-- Button to go to OPTIONS menu -->
     <router-link to="/option">
-    <button>OPTIONS</button>
+    <button class="titlebuttons">OPTIONS</button>
     </router-link>
 
     <br>
 
     <!-- Button to go to OPTIONS menu -->
     <router-link to="/instruction">
-    <button>INSTRUCTIONS</button>
+    <button class="titlebuttons">INSTRUCTIONS</button>
     </router-link>
+   
 
   </div>
 </template>
@@ -80,9 +82,10 @@ body {
   color: #2c3e50;
   margin-top: 60px;
   background: #07252d;
+  text-decoration: none;
 }
 
-button {
+.titlebuttons {
   background-color: transparent; /* Green */
   border: 3px solid #4CAF50;
   color: #4CAF50; 
@@ -98,7 +101,7 @@ button {
   transition: 1.5s;
 }
 
-button:hover {
+.titlebuttons:hover {
   box-shadow: 0 5px 50px 0 #4CAF50 inset,
               0 5px 50px 0 #4CAF50;
 }
