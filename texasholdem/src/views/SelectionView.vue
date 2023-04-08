@@ -15,6 +15,7 @@
         <form>
           <label for="name"> NAME:</label>
           <input type="text" id="name" name="name"><br><br>
+
         </form>
 
         <form>
@@ -39,6 +40,13 @@
     </div>
 </template>
 
+<script>
+  function passData() {
+    var userInput = document.getElementById("userinput").value;
+    myfunction(userInput);
+  }
+
+</script>
 <style>
 
 .selectionbutton {
