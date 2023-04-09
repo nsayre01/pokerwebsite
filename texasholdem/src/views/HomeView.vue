@@ -6,7 +6,6 @@
 
     <br>
 
-   
     <!-- Button to start game on new line -->
     <router-link to="/selection">
     <button class="titlebuttons">START</button>
@@ -25,7 +24,6 @@
     <router-link to="/instruction">
     <button class="titlebuttons">INSTRUCTIONS</button>
     </router-link>
-   
 
   </div>
 </template>
