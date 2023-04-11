@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <h1 class="titlescreen">
+  <div id="parent">
+    <section>
+
+      <h1 class="titlescreen">
     Texas Hold Em
     </h1>
-
-    <br>
 
     <!-- Button to start game on new line -->
     <router-link to="/selection">
@@ -25,6 +25,2536 @@
     <button class="titlebuttons">INSTRUCTIONS</button>
     </router-link>
 
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>          
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>          
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>          
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>          
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>          
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>        
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>        
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>        
+
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <i class="fa-solid fa-coins"></i>
+                <i class="fa-solid fa-robot"></i>
+                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-hat-cowboy"></i>
+                <i class="fa-solid fa-sack-dollar"></i>
+                <i class="fa-regular fa-gem"></i>
+                <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+        </div>        
+    </section>
+
   </div>
 </template>
 
@@ -36,11 +2566,17 @@ export default {
 </script>
 
 <style>
+
+#parent {
+  position: relative;
+}
+
 body {
   background: #07252d;
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
 }
 
 .titlescreen{
@@ -52,6 +2588,8 @@ body {
   margin-top: 20px;
   outline: none;
   animation: animate 20s linear infinite;
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes animate 
@@ -97,6 +2635,8 @@ body {
   border-radius: 100px;
   cursor: pointer; 
   transition: 1.5s;
+  position: relative;
+  z-index: 2;
 }
 
 .titlebuttons:hover {
@@ -104,4 +2644,111 @@ body {
               0 5px 50px 0 #4CAF50;
 }
 
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #07252d;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+section .row
+{
+    top: -110%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 64px;
+    transform: rotate(-30deg);
+}
+i 
+{
+    color: #081e24;
+    transition: 1s;
+    padding: 0 5px; 
+    user-select: none;
+    cursor: default;
+}
+i:hover
+{
+    transition: 0s;
+    color: #0f0;
+    text-shadow: 0 0 120px #0f0;
+    opacity: 0.5;
+
+}
+section .row div 
+{
+    animation: animate1 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row div:nth-child(2)
+{
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+@keyframes animate1
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate2
+{
+    0%
+    {
+        transform: translateX(0%);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}
+
+
+
+section .row:nth-child(even) div 
+{
+    animation: animate3 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row:nth-child(even) div:nth-child(2)
+{
+    animation: animate4 80s linear infinite;
+    animation-delay: -40s;
+}
+@keyframes animate3
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(100%);
+    }
+}
+@keyframes animate4
+{
+    0%
+    {
+        transform: translateX(-200%);
+    }
+    100%
+    {
+        transform: translateX(0%);
+    }
+}
 </style>

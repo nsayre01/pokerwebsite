@@ -1,44 +1,41 @@
 <template>
     <div class="selection">
       <div class="player-one">
+        
         <div class="player-one-name">
-          {{ playerNameOne }}
+          {{ nameOne }}
         </div>
 
         <div class="player-one-icon-box"></div>
 
         <div>
-          <input class="player-one-name-input" v-model="playerNameOne" type="text"><br><br>
+          <input class="player-one-name-input" v-model="nameOne" type="text"><br><br>
         </div>
 
-        <div class="increasedecreaseone">
-          <button @click="decreaseMoneyOne">-</button>
-            <span class="money">{{ moneyOne }}</span>
-          <button @click="increaseMoneyOne">+</button>
-        </div>
+        <input class="player-one-buyin" type="number" v-model="buyinOne" placeholder="Player One Buyin"><br><br>
+
       </div>
 
+
+      
       <div class="player-two">
+        
         <div class="player-two-name">
-          {{ playerNameTwo }}
+          {{ nameTwo }}
         </div>
 
-        <div class="player-two-icon-box">
-        </div>
+        <div class="player-two-icon-box"></div>
 
         <div>
-          <input class="player-two-name-input" v-model="playerNameTwo" type="text"><br><br>
+          <input class="player-two-name-input" v-model="nameTwo" type="text"><br><br>
         </div>
 
-        <div class="increasedecreasetwo">
-          <button @click="decreaseMoneyTwo">-</button>
-            <span class="moneyOne">{{ moneyTwo }}</span>
-          <button @click="increaseMoneyTwo">+</button>
-        </div>
+        <input class="player-two-buyin" type="number" v-model="buyinTwo" placeholder="Player Two Buyin"><br><br>
+
       </div>
 
       <router-link to="/game">
-      <button class="selectionbutton">START</button>
+      <button class="selectionbutton" v-on:click="submitPlayerData">START</button>
       </router-link>
   
       <router-link to="/">
@@ -49,42 +46,43 @@
 
 <script>
 import { ref, onMounted, watch, computed } from 'vue'
+import axios from 'axios'
 
-  export default {
-    setup () {
-      const moneyOne = ref(1000),
-        playerNameOne = ref("Player One"),
-        moneyTwo = ref(1000),
-        playerNameTwo = ref("Player Two")
+export default {
+  name: 'PlayerData',
+  data() 
+  {
+    return {
+      playerNumberOne: 1,
+      nameOne: "Logan",
+      handOne: ["3c", "4c"],
+      buyinOne: 1000,
+      playerNumberTwo: 2,
+      nameTwo: "Kioni",
+      handTwo: ["7s", "8s"],
+      buyinTwo: 2000,
+    }
+  },
+  methods: {
+    async submitPlayerData() {
+      let playerOneResult = axios.post('http://localhost:3000/players', {
+        playerNumber: this.playerNumberOne,
+        name: this.nameOne,
+        hand: this.handOne,
+        buyin: this.buyinOne
+      });
 
-      const increaseMoneyOne = () => {
-        moneyOne.value += 100
-      }
+      let playerTwoResult = axios.post('http://localhost:3000/players', {
+        playerNumber: this.playerNumberTwo,
+        name: this.nameTwo,
+        hand: this.handTwo,
+        buyin: this.buyinTwo
+      });
 
-      const decreaseMoneyOne = () => {
-        moneyOne.value -= 100
-      }
-
-      const increaseMoneyTwo = () => {
-        moneyTwo.value += 100
-      }
-
-      const decreaseMoneyTwo = () => {
-        moneyTwo.value -= 100
-      }
-
-      return {
-        moneyOne,
-        increaseMoneyOne,
-        decreaseMoneyOne,
-        playerNameOne,
-        moneyTwo,
-        increaseMoneyTwo,
-        decreaseMoneyTwo,
-        playerNameTwo
-      }
+      console.warn(result);
     }
   }
+}
 
 </script>
 
@@ -174,6 +172,36 @@ import { ref, onMounted, watch, computed } from 'vue'
                 0 0 40px purple,
                 0 0 80px purple,
                 0 0 160px purple;
+}
+
+.player-one-buyin {
+  color:white;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid purple;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 30px;
+  width:50%;
+  outline:0;
+}
+
+.player-two-buyin {
+  color:white;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid orange;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 30px;
+  width:50%;
+  outline:0;
 }
 
 

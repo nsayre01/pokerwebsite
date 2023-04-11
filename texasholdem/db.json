@@ -38,6 +38,333 @@
       ],
       "buyin": 2000,
       "id": 3
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 4
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 5
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 6
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 7
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 8
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1000,
+      "id": 9
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill Nye",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 2000,
+      "id": 10
+    },
+    {
+      "playerNumber": 2,
+      "name": "Einstein",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 11
+    },
+    {
+      "playerNumber": 2,
+      "name": "Lucius",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 12
+    },
+    {
+      "playerNumber": 1,
+      "name": "ted ",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 2000000000,
+      "id": 13
+    },
+    {
+      "playerNumber": 1,
+      "name": "BLAHHHHHHH",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 2000,
+      "id": 14
+    },
+    {
+      "playerNumber": 2,
+      "name": "BILL!!!!!!!!!!!!!!",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 15
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 3000,
+      "id": 16
+    },
+    {
+      "playerNumber": 2,
+      "name": "natalie",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 17
+    },
+    {
+      "playerNumber": 1,
+      "name": "Caley",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 10000,
+      "id": 18
+    },
+    {
+      "playerNumber": 2,
+      "name": "Cao",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 19
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 5000,
+      "id": 20
+    },
+    {
+      "playerNumber": 2,
+      "name": "Ted",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 21
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 22
+    },
+    {
+      "playerNumber": 2,
+      "name": "Kioni",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 23
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 24
+    },
+    {
+      "playerNumber": 2,
+      "name": "Kioni",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 25
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 26
+    },
+    {
+      "playerNumber": 2,
+      "name": "Ted",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 27
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 28
+    },
+    {
+      "playerNumber": 2,
+      "name": "Kioni",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 29
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 30
+    },
+    {
+      "playerNumber": 2,
+      "name": "Kioni",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 31
+    },
+    {
+      "playerNumber": 1,
+      "name": "Logan",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 1000,
+      "id": 32
+    },
+    {
+      "playerNumber": 2,
+      "name": "Kioni",
+      "buyin": 2000,
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "id": 33
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill",
+      "hand": [
+        "3c",
+        "4c"
+      ],
+      "buyin": 10000,
+      "id": 34
+    },
+    {
+      "playerNumber": 2,
+      "name": "Jeff",
+      "hand": [
+        "7s",
+        "8s"
+      ],
+      "buyin": 100,
+      "id": 35
     }
   ]
 }
