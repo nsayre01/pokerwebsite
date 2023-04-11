@@ -1,0 +1,43 @@
+{
+  "players": [
+    {
+      "playerNumber": 1,
+      "name": "Bill Nye",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1500,
+      "id": 1
+    },
+    {
+      "playerNumber": 1,
+      "name": "Bill Nye",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 1500,
+      "id": 2
+    },
+    {
+      "playerNumber": 1,
+      "name": "Neil Degrasse Tyson",
+      "hand": [
+        "3c",
+        "4c",
+        "5c",
+        "6c",
+        "7c"
+      ],
+      "buyin": 2000,
+      "id": 3
+    }
+  ]
+}
