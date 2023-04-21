@@ -1,41 +1,42 @@
 <template>
     <div class="selection">
+      <form>
       <div class="player-one">
         
         <div class="player-one-name">
-          {{ nameOne }}
+          {{ form.nameOne }}
         </div>
 
         <div class="player-one-icon-box"></div>
 
         <div>
-          <input class="player-one-name-input" v-model="nameOne" type="text"><br><br>
+          <input class="player-one-name-input" v-model="form.nameOne" type="text"><br><br>
         </div>
 
-        <input class="player-one-buyin" type="number" v-model="buyinOne" placeholder="Player One Buyin"><br><br>
+        <input class="player-one-buyin" type="number" v-model="form.buyinOne" placeholder="Player One Buyin"><br><br>
 
       </div>
+      </form>
 
-
-      
-      <div class="player-two">
+      <form class="formTwo">
+        <div class="player-two">
         
-        <div class="player-two-name">
-          {{ nameTwo }}
+          <div class="player-two-name">
+            {{ form.nameTwo }}
+          </div>
+
+          <div class="player-two-icon-box"></div>
+
+          <div>
+            <input class="player-two-name-input" v-model="form.nameTwo" type="text"><br><br>
+          </div>
+
+          <input class="player-two-buyin" type="number" v-model="form.buyinTwo" placeholder="Player Two Buyin"><br><br>
+
         </div>
-
-        <div class="player-two-icon-box"></div>
-
-        <div>
-          <input class="player-two-name-input" v-model="nameTwo" type="text"><br><br>
-        </div>
-
-        <input class="player-two-buyin" type="number" v-model="buyinTwo" placeholder="Player Two Buyin"><br><br>
-
-      </div>
-
+      </form>
       <router-link to="/game">
-      <button class="selectionbutton" v-on:click="submitPlayerData">START</button>
+      <button class="selectionbutton" type="submit" @click="onSubmit">START</button>
       </router-link>
   
       <router-link to="/">
@@ -45,11 +46,53 @@
 </template>
 
 <script>
-import { ref, onMounted, watch, computed } from 'vue'
-import axios from 'axios'
+import { ref, onMounted, watch, computed, reactive } from 'vue'
+import { createUser } from '@/firebase'
+
+  //pass the player one and two data to firebase
+  //then pass the player one and two data to the game view
 
 export default {
-  name: 'PlayerData',
+  setup() {
+    const form = reactive({
+      nameOne: '',
+      buyinOne: 1000
+      //nameTwo: '',
+      //buyinTwo: 2000,
+    })
+
+    //create another form for the player two data
+    const formTwo = reactive({
+      nameTwo: '',
+      buyinTwo: 1000
+    })
+
+    const onSubmit = async () => {
+      await createUser( { ...form })
+      form.buyinOne = 1000,
+      //form.buyinTwo = 500
+      form.nameOne = "Player One",
+      //form.nameTwo = ""
+      console.log(form)
+    }
+
+    const onSubmitTwo = async () => {
+      await createUser( { ...formTwo })
+      formTwo.buyinTwo = 500
+      formTwo.nameTwo = "Player Two"
+      console.log(formTwo)
+    }
+
+    return { form, formTwo, onSubmit, onSubmitTwo }
+
+  }
+}
+  
+  
+
+
+
+  /*
   data() 
   {
     return {
@@ -82,8 +125,7 @@ export default {
       console.warn(result);
     }
   }
-}
-
+  */ 
 </script>
 
 <style>
