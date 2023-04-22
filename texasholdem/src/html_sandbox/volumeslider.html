@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Volume Slider</title>
+    <link rel="stylesheet" href="volslider.css">
+</head>
+<body>
+    <div class="slider-cont">
+        <div class="slider">
+            <input type="range" min="0" max="100" value="50">
+            <progress min="0" max="100" value="50"></progress>
+        </div>
+        <div class="sliderValue">50</div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            slider = document.querySelector(".slider input");
+            slider.oninput = function() {
+                progressBar = document.querySelector(".slider progress");
+                progressBar.value = slider.value;
+                sliderValue = document.querySelector(".sliderValue");
+                sliderValue.innerHTML = slider.value;
+            }
+        }
+    </script>
+</body>
+</html>

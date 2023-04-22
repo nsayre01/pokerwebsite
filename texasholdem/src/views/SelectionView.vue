@@ -10,31 +10,32 @@
         <div class="player-one-icon-box"></div>
 
         <div>
-          <input class="player-one-name-input" v-model="form.nameOne" type="text"><br><br>
+          <input class="player-one-name-input" v-model="form.nameOne" type="text" placeholder="Player One Name"><br><br>
         </div>
 
         <input class="player-one-buyin" type="number" v-model="form.buyinOne" placeholder="Player One Buyin"><br><br>
 
       </div>
-      </form>
 
-      <form class="formTwo">
-        <div class="player-two">
+     
+      <div class="player-two">
         
-          <div class="player-two-name">
-            {{ form.nameTwo }}
-          </div>
-
-          <div class="player-two-icon-box"></div>
-
-          <div>
-            <input class="player-two-name-input" v-model="form.nameTwo" type="text"><br><br>
-          </div>
-
-          <input class="player-two-buyin" type="number" v-model="form.buyinTwo" placeholder="Player Two Buyin"><br><br>
-
+        <div class="player-two-name">
+          {{ formTwo.nameTwo }}
         </div>
-      </form>
+
+        <div class="player-two-icon-box"></div>
+
+        <div>
+          <input class="player-two-name-input" v-model="formTwo.nameTwo" type="text" placeholder="Player Two Name"><br><br>
+        </div>
+
+        <input class="player-two-buyin" type="number" v-model="formTwo.buyinTwo" placeholder="Player Two Buyin"><br><br>
+
+      </div>
+    </form>
+
+
       <router-link to="/game">
       <button class="selectionbutton" type="submit" @click="onSubmit">START</button>
       </router-link>
@@ -57,8 +58,6 @@ export default {
     const form = reactive({
       nameOne: '',
       buyinOne: 1000
-      //nameTwo: '',
-      //buyinTwo: 2000,
     })
 
     //create another form for the player two data
@@ -70,20 +69,13 @@ export default {
     const onSubmit = async () => {
       await createUser( { ...form })
       form.buyinOne = 1000,
-      //form.buyinTwo = 500
+      formTwo.buyinTwo = 1000,
       form.nameOne = "Player One",
-      //form.nameTwo = ""
+      formTwo.nameTwo = "Player Two"
       console.log(form)
     }
 
-    const onSubmitTwo = async () => {
-      await createUser( { ...formTwo })
-      formTwo.buyinTwo = 500
-      formTwo.nameTwo = "Player Two"
-      console.log(formTwo)
-    }
-
-    return { form, formTwo, onSubmit, onSubmitTwo }
+    return { form, formTwo, onSubmit }
 
   }
 }
