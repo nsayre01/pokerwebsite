@@ -2,6 +2,10 @@
     <div class="selection">
       <form>
       <div class="player-one">
+
+        <audio autoplay loop>
+          <source src="../soundtrack/cafe.mp3">
+        </audio>
         
         <div class="player-one-name">
           {{ form.nameOne }}

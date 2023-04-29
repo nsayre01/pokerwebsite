@@ -2,13 +2,23 @@
     <div class="game">
       <h1>This where the game will be displayed and played</h1>
 
+      <div class="container">
+		    <div class="table">
+			    <div class="card"></div>
+			    <div class="card"></div>
+			    <div class="card"></div>
+			    <div class="card"></div>
+			    <div class="card"></div>
+		    </div>
+	    </div>
+
 
       <!-- Button to go back to home menu -->
       <router-link to="/">
       <button>HOME</button>
       </router-link>
     </div>
-  </template>
+</template>
 
 <script>
 import { ref, onMounted, watch, computed, reactive } from 'vue';
@@ -71,5 +81,53 @@ button:hover {
               0 5px 50px 0 #4CAF50;
 }
 
+
+.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #2c3e50;
+		}
+		
+		.table {
+			position: relative;
+			width: 600px;
+			height: 400px;
+			background-color: green;
+			border: 10px solid #8b4513;
+			border-radius: 50%;
+			box-shadow: 0px 0px 10px #8b4513;
+		}
+
+    .card {
+			position: absolute;
+			width: 60px;
+			height: 90px;
+			border: 3px solid white;
+			border-radius: 5px;
+			background-color: transparent;
+			top: 155px;
+		}
+		
+		.card:nth-child(1) {
+			left: calc(50% - 190px);
+		}
+		
+		.card:nth-child(2) {
+			left: calc(50% - 110px);
+		}
+		
+		.card:nth-child(3) {
+			left: calc(50% - 30px);
+		}
+		
+		.card:nth-child(4) {
+			left: calc(50% + 50px);
+		}
+		
+		.card:nth-child(5) {
+			left: calc(50% + 130px);
+		}
 
 </style>

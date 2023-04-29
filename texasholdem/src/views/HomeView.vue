@@ -6,6 +6,10 @@
     Texas Hold Em
     </h1>
 
+    <audio autoplay loop>
+          <source src="../soundtrack/cafe.mp3">
+        </audio>
+
     <!-- Button to start game on new line -->
     <router-link to="/selection">
     <button class="titlebuttons">START</button>

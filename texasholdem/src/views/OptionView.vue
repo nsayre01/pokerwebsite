@@ -1,6 +1,14 @@
 <template>
   <div class="options">
-    <h1>This is the options page</h1>
+    <head>
+    <meta charset="utf-8">
+    <title>Volume Slider</title>
+    <link rel="stylesheet" href="volslider.css">
+</head>
+
+        <div class="slider">
+            <input type="range" min="0" max="100" value="50">
+        </div>
 
     <!-- Button to go back to home menu -->
     <router-link to="/">
@@ -8,7 +16,6 @@
     </router-link>
   </div>
 </template>
-
 <style>
 
 .optionbutton {
@@ -32,5 +39,4 @@
   box-shadow: 0 5px 50px 0 #4CAF50 inset,
               0 5px 50px 0 #4CAF50;
 }
-
 </style>
