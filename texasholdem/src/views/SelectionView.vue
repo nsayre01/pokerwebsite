@@ -71,6 +71,10 @@ export default {
     })
 
     const onSubmit = async () => {
+      localStorage.setItem('oneName', form.nameOne)
+      localStorage.setItem('twoName', formTwo.nameTwo)
+      localStorage.setItem('oneBuyin', form.buyinOne)
+      localStorage.setItem('twoBuyin', formTwo.buyinTwo)
       await createUser( { ...form })
       form.buyinOne = 1000,
       formTwo.buyinTwo = 1000,
@@ -84,44 +88,6 @@ export default {
   }
 }
   
-  
-
-
-
-  /*
-  data() 
-  {
-    return {
-      playerNumberOne: 1,
-      nameOne: "Logan",
-      handOne: ["3c", "4c"],
-      buyinOne: 1000,
-      playerNumberTwo: 2,
-      nameTwo: "Kioni",
-      handTwo: ["7s", "8s"],
-      buyinTwo: 2000,
-    }
-  },
-  methods: {
-    async submitPlayerData() {
-      let playerOneResult = axios.post('http://localhost:3000/players', {
-        playerNumber: this.playerNumberOne,
-        name: this.nameOne,
-        hand: this.handOne,
-        buyin: this.buyinOne
-      });
-
-      let playerTwoResult = axios.post('http://localhost:3000/players', {
-        playerNumber: this.playerNumberTwo,
-        name: this.nameTwo,
-        hand: this.handTwo,
-        buyin: this.buyinTwo
-      });
-
-      console.warn(result);
-    }
-  }
-  */ 
 </script>
 
 <style>
