@@ -5,7 +5,6 @@ import random
 from torch import optim
 from player import Player
 import torch
-from pokergame import poker_game
 from pokerface import *
 import copy 
 import pathlib
@@ -43,7 +42,8 @@ def model_nextmove(game__state):
         strat_model.eval()
     strat  = strat_model.forward(cards,bet_history)
     print(strat[0].tolist())
-    return choices(actions,strat[0].tolist())[0]
+    list_strat = strat[0].tolist()
+    return choices(actions,list_strat[len(list_strat)-len(actions):])[0]
     
 def cards_to_num_dic_init(deck):
         counter = 0
@@ -83,7 +83,7 @@ game_actions = {
 "hand": ["3s", "8h"],
 "board": ["Jd", "Td", "Ad", "5h", "6c"],
 "history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
-"actions": ["bet", "call", "fold"]
+"actions": ["call", "fold"]
 }
 
 print(model_nextmove(game_actions))
