@@ -1,11 +1,12 @@
 <template>
     <div class="game">
-      <h1>This where the game will be displayed and played</h1>
+      <h2>{{gameText}}</h2>
+      <button  @click=""> OK</button>
+      
 
-      <h2>Player One: {{ oneName }}, {{ oneBuyin }}, {{ onehand }}</h2>
-      <h2>Player Two: {{ twoName }}, {{ twoBuyin }}, {{ twohand }}</h2>
 
       <div class="container">
+        
 
         <div class="card">
 		      <div class="suit">
@@ -32,21 +33,60 @@
         </div>
 
 		    <div class="table">
-			    <div class="river"></div>
-			    <div class="river"></div>
-			    <div class="river"></div>
-			    <div class="river"></div>
-			    <div class="river"></div>
-
-          <div class="button-box">
-            <button class="call">Call</button>
-            <button class="raise">Raise</button>
-            <button class="fold">Fold</button>
-            <button class="check">Check</button>
+			    <div v-show="flop" class="river">
+            <div class="card">
+		      <div class="suit">
+            {{ board[0].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ board[0].rank }}
+          </div>
+          <div class="rank-top">
+            {{ board[0].rank }}
+          </div>
+        </div>
           </div>
 
-          <div class="button-box-two">
-            <button class="call">Call</button>
+          <div v-show="flop" class="river">
+            <div class="card">
+		      <div class="suit">
+            {{ board[1].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ board[1].rank }}
+          </div>
+          <div class="rank-top">
+            {{ board[1].rank }}
+          </div>
+        </div>
+          </div>
+
+			    <div v-show="flop" class="river">
+            <div class="card">
+		      <div class="suit">
+            {{ board[2].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ board[2].rank }}
+          </div>
+          <div class="rank-top">
+            {{ board[2].rank }}
+          </div>
+        </div>
+
+          </div>
+			    <div class="river"></div>
+			    <div class="river"></div>
+
+          <div ref = 'test' id ="rOne" class="button-box" >
+            <button @click="getInput('call')" class="call">Call</button>
+            <button @click="getInput('raise')"  class="raise">Raise</button>
+            <button @click="getInput('fold')"  class="fold">Fold</button>
+            <button @click="getInput('check')"  class="check">Check</button>
+          </div>
+
+          <div id = "playerTwo" class="button-box-two">
+            <button class="call" @click="">Call</button>
             <button class="raise">Raise</button>
             <button class="fold">Fold</button>
             <button class="check">Check</button>
@@ -92,6 +132,9 @@
 <script>
 import { ref, onMounted, watch, computed, reactive } from 'vue';
 import axios from 'axios';
+import Game from '@/game.js'
+
+
 
 //import HandEval as a module
 //import HandEval from 'HandEval'
@@ -117,24 +160,57 @@ for (let i = deck.length - 1; i > 0; i--) {
 }
 
 // Deal two cards from the top of the shuffled deck
-const onehand = [deck[0], deck[1]];
-const twohand = [deck[5], deck[7]];
+//const onehand = [deck[0], deck[1]];
+//const twohand = [deck[5], deck[7]];
 const bothand = [deck[9], deck[12]];
-console.log('Your hand:', onehand);
-console.log('Your opponent\'s hand:', twohand);
+//console.log('Your hand:', onehand);
+//console.log('Your opponent\'s hand:', twohand);
 console.log(bothand);
 
 export default {
-  data: function() {
+  setup() {
+    
+    let game = new Game();
+
+    game.setup()
+    //game.preflop()
+    game.flop()
+    
+    const playerOne = game.getPlayers()[0]
+    
+    let gameText = reactive(game.text)
+    console.log([game.getPlayers()[0].getHand()[0],game.getPlayers()[0].getHand()[1] ]);
+    const onehand = [game.getPlayers()[0].getHand()[0],game.getPlayers()[0].getHand()[1] ];
+    const twohand = [game.getPlayers()[1].getHand()[0],game.getPlayers()[1].getHand()[1] ];
+    console.log(localStorage.getItem('currMove'))
+    const board = game.getBoard()
+    console.log(board)
+    //game.setup();
+    //game.flop();
+  
+    
+    const getInput =  async (type) => { 
+      console.log(type)
+      
+    }
+    
     return {
       oneName: localStorage.getItem('oneName'),
       twoName: localStorage.getItem('twoName'),
       oneBuyin: localStorage.getItem('oneBuyin'),
       twoBuyin: localStorage.getItem('twoBuyin'),
       onehand: onehand,
-      twohand: twohand
+      twohand: twohand,
+      board: board,
+      flop: true,
+      gameText,
+      getInput
     }
+  }, 
+  methods: {
+    
   }
+
 }
 
 </script>
@@ -142,8 +218,8 @@ export default {
 <style>
 
 .card {
-			width: 100px;
-			height: 150px;
+			width: 60px;
+			height: 90px;
 			border-radius: 10px;
 			border: 1px solid black;
       background-color: black;
@@ -159,23 +235,23 @@ export default {
 		}
 
 		.card .suit {
-			font-size: 50px;
-			line-height: 50px;
+			font-size: 30px;
+			line-height: 0px;
 			justify-content: center;
       align-items: center;
 		}
 
 		.card .rank-bottom {
-			font-size: 30px;
-			line-height: 30px;
+			font-size: 20px;
+			line-height: 10px;
 			position: absolute;
 			bottom: 10px;
 			right: 10px;
 		}
 
     .card .rank-top {
-			font-size: 30px;
-			line-height: 30px;
+			font-size: 20px;
+			line-height: 10px;
 			position: absolute;
 			top: 10px;
 			left: 10px;
@@ -259,9 +335,9 @@ button {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			height: 100vh;
+			height: 90vh;
       width: 80vw;
-			background-color: #2c3e50;
+      background-position: 0;
 		}
 		
 		.table {
@@ -278,8 +354,6 @@ button {
 			position: absolute;
 			width: 60px;
 			height: 90px;
-			border: 3px solid white;
-			border-radius: 5px;
 			background-color: transparent;
 			top: 155px;
 		}

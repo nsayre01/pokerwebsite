@@ -9,12 +9,13 @@ class Deck {
 
     reset() {
         this.deck = [];
-        const suits = ['Hearts', 'Clubs', 'Diamonds', 'Spades'];
-        const values = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+        const suits = ['❤', '♦', '♣', '♠'];
+        const ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
 
-        for (let suit in suits) {
-            for (let value in values) {
-                this.deck.push(values[value] + ' of ' + suits[suit]);
+        
+        for (let i = 0; i < suits.length; i++) {
+            for (let j = 0; j < ranks.length; j++) {
+                this.deck.push({ suit: suits[i], rank: ranks[j] });
             }
         }
     }    
@@ -138,15 +139,23 @@ export default class Game {
         this.alivePlayers =[];
         this.actions = [];
         this.foldedPlayers = [];
+        this.text = "";
     }
     
     //test user input passes from selectionview to game
     myFunction(userInput) {
         console.log(userInput);
     }
+
+    getBoard() {
+        return this.board;
+    }
     addPlayer(name) {
         this.players.push(new Player(name));
 
+    }
+    getPlayers() {
+        return this.players;
     }
 
     dealCards() {
@@ -161,28 +170,27 @@ export default class Game {
         this.deck.reset();
         this.deck.shuffle();
         //get player names for 3 players
-        this.addPlayer(prompt('Player 1 name: '));
-        this.addPlayer(prompt('Player 2 name: '));
-        this.addPlayer(prompt('Player 3 name: ')); 
+        this.addPlayer(localStorage.getItem("oneName"));
+        this.addPlayer(localStorage.getItem("twoName"));
+        this.addPlayer("Bot"); 
         this.dealCards();
         this.round = 0;
        
         //set dealer and blinds
         this.dealer = this.players[0];
-        this.players[1].setMoney(this.players[1].getMoney() - this.smallBlind);
+        this.players[1].setMoney(localStorage.getItem("oneBuyin") - this.smallBlind);
         this.players[1].setBet(this.smallBlind);
-        this.players[2].setMoney(this.players[2].getMoney() - this.bigBlind);
+        this.players[2].setMoney(localStorage.getItem("twoBuyin") - this.bigBlind);
         this.players[2].setBet(this.bigBlind);
         this.pot = this.smallBlind + this.bigBlind;
         this.bet = this.bigBlind;
         console.log("setup done")
-        alert("Game started! Dealer is " + this.dealer.name + ". Small blind is " + this.players[1].name + " and big blind is " + this.players[2].name + ". Press OK to continue.");
+        this.text = "Game started! Dealer is " + this.dealer.name + ". Small blind is " + this.players[1].name + " and big blind is " + this.players[2].name ;
         
         this.alivePlayers = this.players.slice();
     }
     printBoard() {
-        alert("Board: " + this.board + "\n" + this.players[0].name + "'s hand: " + this.players[0].getHand() + "\n" + this.players[1].name + "'s hand: " + this.players[1].getHand() + "\n" + this.players[2].name + "'s hand: " + this.players[2].getHand());
-        alert("Pot: " + this.pot + "\n" +"Bet: " + this.bet + "\n" + this.players[0].name + "'s money: " + this.players[0].getMoney() + "\n" + this.players[1].name + "'s money: " + this.players[1].getMoney() + "\n" + this.players[2].name + "'s money: " + this.players[2].getMoney());
+        //this.text = "Board: " + this.board + "\n" + this.players[0].name + "'s hand: " + this.players[0].getHand() + "\n" + this.players[1].name + "'s hand: " + this.players[1].getHand() + "\n" + this.players[2].name + "'s hand: " + this.players[2].getHand() + "\n" +"Pot: " + this.pot + "\n" +"Bet: " + this.bet + "\n" + this.players[0].name + "'s money: " + this.players[0].getMoney() + "\n" + this.players[1].name + "'s money: " + this.players[1].getMoney() + "\n" + this.players[2].name + "'s money: " + this.players[2].getMoney();
     }
     preflop() {
         this.round = 1;
@@ -203,7 +211,7 @@ export default class Game {
             this.board.push(this.deck.deal());
         }
         this.printBoard();
-        this.bettingRound();
+        //this.bettingRound();
         console.log('flop done');
     }
 
@@ -283,29 +291,30 @@ export default class Game {
     }
 
     promptPlayer(player) {
-        let action = prompt('The table shows ' + this.board + '.\n' + 'The pot is ' + this.pot + '.\n' + 'The current bet is ' + this.bet + '.\n' +'Your current bet is ' + player.getBet() + '.\n' +'Your current hand is ' + player.getHand() + '.' + player.name + ' what would you like to do?');
+       this.text = 'The table shows ' + this.board + '.\n' + 'The pot is ' + this.pot + '.\n' + 'The current bet is ' + this.bet + '.\n' +'Your current bet is ' + player.getBet() + '.\n' +'Your current hand is ' + player.getHand() + '.' + player.name + ' what would you like to do?';
+       let action = localStorage.getItem('currMove')
         
-        if (action === 'fold') {
-            this.fold(player);
-        } else if (action === 'call') {
-            this.call(player);
-        } else if (action === 'raise') {
-            this.raise(player);
-        } else if (action === 'check') {
-            this.check(player);
-        } else if (action == 'bet') {
-            this.bet(player);
-        } else {
-            alert('Invalid action');
-            this.promptPlayer(player);
-        }
-        player.setAction(action);
+       if (action === 'fold') {
+           this.fold(player);
+       } else if (action === 'call') {
+           this.call(player);
+       } else if (action === 'raise') {
+           this.raise(player);
+       } else if (action === 'check') {
+           this.check(player);
+       } else if (action == 'bet') {
+           this.bet(player);
+       } else {
+           this.text = ('Invalid action');
+           this.promptPlayer(player);
+       }
+       player.setAction(action);
     }
     bet(player) {
         //check no previous bet
         if (this.bet > 0) {
-            alert('There is already a bet. You must call, raise, or fold.');
-            this.promptPlayer(player);
+            this.text = 'There is already a bet. You must call, raise, or fold.';
+            //this.promptPlayer(player);
             return;
         }
         
@@ -319,7 +328,7 @@ export default class Game {
 
         //check if player has enough money to bet
         if (player.getMoney() < this.bet) {
-            alert('You do not have enough money to bet');
+            this.text = ('You do not have enough money to bet');
             this.bet = 0;
             this.promptPlayer(player);
             return;
@@ -352,7 +361,7 @@ export default class Game {
     call(player) {
         //check theres a bet
         if (this.bet === 0) {
-            alert('There is no bet to call');
+            this.text = ('There is no bet to call');
             this.promptPlayer(player);
             return;
         }
@@ -388,7 +397,7 @@ export default class Game {
     raise(player) {
         //check theres a bet
         if (this.bet === 0) {
-            alert('There is no bet to raise');
+            this.text = ('There is no bet to raise');
             this.promptPlayer(player);
             return;
         }
@@ -403,12 +412,12 @@ export default class Game {
         if (player.getMoney() < raiseAmt) {
             //check if player has 0 money
             if (player.getMoney() === 0) {
-                console.log('You have no money left');
+                this.text = ('You have no money left');
                 this.fold(player);
                 this.alivePlayers.remove(player);
                 return;
             }
-            console.log('You do not have enough money to raise');
+            this.text = ('You do not have enough money to raise');
             this.promptPlayer(player);
         }
         player.setMoney(player.getMoney() - (player.getBet() + raiseAmt));
