@@ -16,10 +16,10 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route("/AI-Turn", methods=['GET'])
 def get_AI_move():
-    game_state = request.args.get('game-state')
-    return UseModel.model_nextmove(game_state)
+    game_state = request.get_json(force=True)
+    return UseModel.model_nextmove(dict(game_state))
 
 @app.route("/Get-Winner", methods=['GET'])
 def get_winner_move():
-    game_state = request.args.get('game-state')
-    return winnerEval.get_winner(game_state)
+    game_state = request.get_json(force=True)
+    return str(winnerEval.get_winner(dict(game_state)))

@@ -27,8 +27,7 @@ def  get_winner(game_state):
 #              {"id": 2, "cards": ["5h","7s"]},
 #              {"id": 3, "cards": ["Kh","Qh"]} ],
 # "ai_hand": ["5h", "7s"],
-# "board": ['Jc','3d','Th',
-#           'Ah','Jh'],
+# "board": ["Jc","3d","Th","Ah","Jh"],
 # "history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
 # "actions": ["call", "fold"]
 # }
