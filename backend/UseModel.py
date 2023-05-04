@@ -79,13 +79,13 @@ def bet_padding(bets:list):
         return bets
 
 
-game_actions = {
+# game_actions = {
 
-"ai_hand": ["5h", "7s"],
-"board": ["Jd", "Td", "Ad", "5h", "6c"],
-"history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
-"actions": ["call", "fold"]
-}
+# "ai_hand": ["5h", "7s"],
+# "board": ["Jd", "Td", "Ad", "5h", "6c"],
+# "history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
+# "actions": ["call", "fold"]
+# }
 
-print(model_nextmove(game_actions))
+# print(model_nextmove(game_actions))
 
