@@ -80,9 +80,11 @@ def bet_padding(bets:list):
 
 
 # game_actions = {
-
-# "ai_hand": ["5h", "7s"],
-# "board": ["Jd", "Td", "Ad", "5h", "6c"],
+# "players" : [{"id": 1, "cards":["7h","3h"]}, 
+#              {"id": 2, "cards": ["5h","7s"]},
+#              {"id": 3, "cards": ["Kh","Qh"]} ],
+# "ai_hand": ["2s","7d"],
+# "board": ["7c","3d","Th","9h","9s"],
 # "history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
 # "actions": ["call", "fold"]
 # }
