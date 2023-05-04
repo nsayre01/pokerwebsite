@@ -18,6 +18,10 @@ def parse_gamestate(game_state):
     board =  process_card_labels(game_state["board"],card_to_label)
     history = game_state["history"]
     actions = game_state["actions"]
+    if len(board) == 0:
+        flop = [-1,-1,-1]
+        bet_history = history_to_bet(history)
+        return ( torch.tensor([hand]),torch.tensor([flop]), []) , torch.tensor([bet_history]),actions    
     if len(board) == 3:
         flop = board
         bet_history = history_to_bet(history)
