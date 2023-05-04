@@ -13,8 +13,9 @@ CARD_TYPES = 2
 NACTIONS = 3 
 
 def parse_gamestate(game_state):
-    hand =  process_card_labels(game_state["hand"])
-    board =  process_card_labels(game_state["board"])
+    card_to_label = cards_to_num_dic_init(StandardDeck())
+    hand =  process_card_labels(game_state["ai_hand"],card_to_label)
+    board =  process_card_labels(game_state["board"],card_to_label)
     history = game_state["history"]
     actions = game_state["actions"]
     if len(board) == 3:
@@ -56,7 +57,7 @@ def cards_to_num_dic_init(deck):
         return card_to_num_dic
 
         
-def process_card_labels(cards):
+def process_card_labels(cards,card_to_label):
     card_labels = []
     
     for i in cards:
@@ -77,10 +78,10 @@ def bet_padding(bets:list):
         bets.extend(padding)
         return bets
 
-card_to_label = cards_to_num_dic_init(StandardDeck())
+
 game_actions = {
 
-"hand": ["3s", "8h"],
+"ai_hand": ["5h", "7s"],
 "board": ["Jd", "Td", "Ad", "5h", "6c"],
 "history": ["bet", "call", "call", "bet", "bet", "bet", "call", "bet", "call", "fold", "bet"],
 "actions": ["call", "fold"]
