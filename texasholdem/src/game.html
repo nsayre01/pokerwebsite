@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="test.css">
+    <title>game</title> 
+    <script src="game.js"></script>
+</head>
+<body onload="parent.init()">
+<div class="game">
+      <h2><script type="text/javascript">
+          var number = localStorage.getItem("oneName")
+         console.log(number)
+        document.write(number)
+      </script></h2>
+      
+        
+
+      <div class="container">
+        
+        <div class = "seat">
+            <div class="player-one-icon-box-small"></div>
+            <div class ="name-box"><div class = "name"><script type="text/javascript">
+          var number = localStorage.getItem("oneName")
+         console.log(number)
+        document.write(number)
+      </script></div><div class = "chips"><script type="text/javascript">
+          var number = localStorage.getItem("oneBuy")
+         console.log(number)
+        document.write(number)
+      </script></div></div>
+        <div id="onehand0" class="card">
+		      <div id="onehand0-suit" class="suit">
+          </div>
+		      <div id="onehand0-rank1" class="rank-bottom">
+          </div>
+          <div id="onehand0-rank2" class="rank-top">
+          </div>
+        </div>
+          
+        <div id="onehand1" class="card">
+		      <div id="onehand1-suit" class="suit">
+          </div>
+		      <div id="onehand1-rank1" class="rank-bottom">
+          </div>
+          <div id="onehand1-rank2" class="rank-top">
+          </div>
+        </div>
+          </div>
+		    <div class="table">
+			    <div id="flop0" class="river">
+            <div class="card">
+		      <div id="flop0-suit" class="suit">
+            {{ board[0].suit }}
+          </div>
+		      <div id="flop0-rank1"class="rank-bottom">
+            {{ board[0].rank }}
+          </div>
+          <div id="flop0-rank2"class="rank-top">
+            {{ board[0].rank }}
+          </div>
+        </div>
+          </div>
+
+          <div id="flop1" class="river">
+            <div class="card">
+		      <div id = "flop1-suit" class="suit">
+          </div>
+		      <div id = "flop1-rank1" class="rank-bottom">
+          </div>
+          <div id = "flop1-rank2" class="rank-top">
+          </div>
+        </div>
+          </div>
+
+			    <div id="flop2" class="river">
+            <div class="card">
+		      <div id="flop2-suit" class="suit">
+            {{ board[2].suit }}
+          </div>
+		      <div id="flop2-rank1"class="rank-bottom">
+            {{ board[3].rank }}
+          </div>
+          <div id="flop2-rank2"class="rank-top">
+            {{ board[3].rank }}
+          </div>
+        </div>
+
+          </div>
+			    <div id="turn" class="river">
+                <div class="card">
+		      <div class="suit">
+            {{ board[4].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ board[4].rank }}
+          </div>
+          <div class="rank-top">
+            {{ board[4].rank }}
+          </div>
+        </div>
+                </div>
+			    <div id="river" class="river">
+                
+                <div class="card">
+		      <div class="suit">
+            {{ board[5].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ board[5].rank }}
+          </div>
+          <div class="rank-top">
+            {{ board[5].rank }}
+          </div>
+        </div>
+                </div>
+        <h2 id="message"></h2>
+          <div id ="actionss0" class="button-box" >
+            <button id = "call" class="call">Call</button>
+            <button id = "raise" class="raise">Raise</button>
+            <button id = "fold" class="fold">Fold</button>
+          </div>
+
+          <div id = "actionss1" class="button-box-two">
+            <button id = "call" class="call" >Call</button>
+            <button id = "raise" class="raise">Raise</button>
+              <button id = "fold"  class="fold">Fold</button>
+          </div>
+
+		    </div>
+
+        <div class="card">
+		      <div class="suit">
+            {{ twohand[0].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ twohand[0].rank }}
+          </div>
+          <div class="rank-top">
+            {{ twohand[0].rank }}
+          </div>
+        </div>
+
+        <div class="card">
+		      <div class="suit">
+            {{ twohand[1].suit }}
+          </div>
+		      <div class="rank-bottom">
+            {{ twohand[1].rank }}
+          </div>
+          <div class="rank-top">
+            {{ twohand[1].rank }}
+          </div>
+        </div>
+	    </div>
+
+
+
+
+      <!-- Button to go back to home menu -->
+      <a href="home.html">
+      <button class="homebutton">HOME</button>
+      </a>
+    </div>
+   
+</body>

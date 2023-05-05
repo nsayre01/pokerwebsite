@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="test.css">
+    <title>test</title> 
+</head>
+
+<body>
+    <div class="game">
+        <button  @click=""> OK</button>
+        
+  
+  
+        <div class="container">
+          
+  
+          <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+  
+          <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+  
+              <div class="table">
+                  <div v-show="flop" class="river">
+              <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+            </div>
+  
+            <div v-show="flop" class="river">
+              <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+            </div>
+  
+                  <div v-show="flop" class="river">
+              <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+  
+            </div>
+                  <div class="river"></div>
+                  <div class="river"></div>
+  
+            <div ref = 'test' id ="rOne" class="button-box" >
+              <button  class="call">Call</button>
+              <button  class="raise">Raise</button>
+              <button  class="fold">Fold</button>
+              <button class="check">Check</button>
+            </div>
+  
+            <div id = "playerTwo" class="button-box-two">
+              <button class="call" @click="">Call</button>
+              <button class="raise">Raise</button>
+              <button class="fold">Fold</button>
+              <button class="check">Check</button>
+            </div>
+  
+              </div>
+  
+          <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+  
+          <div class="card">
+                <div class="suit">
+            </div>
+                <div class="rank-bottom">
+            </div>
+            <div class="rank-top">
+            </div>
+          </div>
+          </div>
+  
+  
+  
+  
+        <!-- Button to go back to home menu -->
+        <router-link to="/">
+        <button class="homebutton">HOME</button>
+        </router-link>
+      </div>
+
+</body>
