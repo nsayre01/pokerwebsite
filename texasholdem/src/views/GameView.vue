@@ -133,6 +133,7 @@
 import { ref, onMounted, watch, computed, reactive } from 'vue';
 import axios from 'axios';
 import Game from '@/game.js'
+import Player from '@/game.js'
 
 
 
@@ -206,9 +207,7 @@ export default {
       gameText,
       getInput
     }
-  }, 
-  methods: {
-    
+
   }
 
 }

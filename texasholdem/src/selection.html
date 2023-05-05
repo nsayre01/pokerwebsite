@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="test.css">
+    <title>options</title> 
+</head>
+
+
+<body>
+<div class="selection">
+      <form>
+      <div class="player-one">
+
+        <audio autoplay loop>
+          <source src="../soundtrack/cafe.mp3">
+        </audio>
+        
+        <div id = "printone" class="player-one-name">
+            <p><span id ="printone" class = "player-one-name"></span></p>
+        </div>
+
+        <div class="player-one-icon-box"></div>
+
+        <div>
+          <input id= "playerOne" class="player-one-name-input" onkeyup="getName('playerOne')" type="text" placeholder="Player One Name"><br><br>
+        </div>
+
+        <input id = "playerOneBuy" class="player-one-buyin" type="number" v-model="form.buyinOne" placeholder="Player One Buyin"><br><br>
+
+      </div>
+
+     
+      <div class="player-two">
+        
+        <div class="player-two-name">
+          <p><span id ="printtwo" class = "player-two-name"></span></p>
+        </div>
+
+        <div class="player-two-icon-box"></div>
+
+        <div>
+          <input id = "playerTwo" class="player-two-name-input" onkeyup="getName('playerTwo')"  type="text" placeholder="Player Two Name"><br><br>
+        </div>
+
+        <input id = "playerTwoBuy" class="player-two-buyin" type="number" v-model="formTwo.buyinTwo" placeholder="Player Two Buyin"><br><br>
+
+      </div>
+    </form>
+
+
+     <a href="game.html">
+      <button class="selectionbutton" type="submit" onclick="submit()">START</button>
+    </a>
+  
+      <a href="home.html">
+      <button class="selectionbutton">BACK</button>
+      </a>
+    </div>
+    <script>
+   function getName(player) {
+        var x = document.getElementById(player).value;
+        console.log(x)
+       if(player == "playerOne") {
+           document.getElementById("printone").innerHTML = x;
+       }
+       else {
+           document.getElementById("printtwo").innerHTML = x;
+       }
+   }
+    function submit() {
+        
+        localStorage.setItem('oneName',document.getElementById("playerOne").value )
+        localStorage.setItem('twoName',document.getElementById("playerTwo").value)
+        localStorage.setItem('oneBuy', document.getElementById("playerOneBuy").value)
+        console.log(localStorage.getItem('oneBuy'))
+        localStorage.setItem('twoBuy', document.getElementById("playerTwoBuy").value)
+    }
+        
+    
+</script>
+</body>
+
+</html>
