@@ -663,6 +663,45 @@ background-position: 0;
         }
     }
 
+
+    .seat-bot {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      box-shadow: #081e24;
+      color: #4CAF50;
+      font-size: 20px;
+      text-shadow: 0 0 10px #4CAF50,
+                    0 0 20px #4CAF50,
+                    0 0 40px #4CAF50,
+                    0 0 80px #4CAF50,
+                    0 0 160px #4CAF50;
+      background: #081e24;
+      
+
+      position: absolute;
+  top: -1px;
+
+      z-index: 5;
+    }
+
+
+
+
+
+    .bot-icon-box-small {
+      width: 75px;
+      height: 75px;
+      border: 3px solid #4CAF50;
+      border-radius: 100px;
+      margin: 0 auto;
+      display: flex; /* create a flex container */
+    justify-content: center; /* center items horizontally */
+    align-items: center; /* center items vertically */
+    }
+
+
+
+
     .fa-solid fa-user fa-2xl {
       position: absolute;
       bottom: -65%;
