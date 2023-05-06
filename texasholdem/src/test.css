@@ -572,7 +572,9 @@ background-position: 0;
                 0 0 40px purple,
                 0 0 80px purple,
                 0 0 160px purple;
-
+  background: #081e24;
+  position: flex;
+  justify-content: center;
 }
 
 .player-one-icon-box-small {
@@ -581,6 +583,10 @@ background-position: 0;
   border: 3px solid purple;
   border-radius: 100px;
   margin: 0 auto;
+
+  display: flex; /* create a flex container */
+  justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
 }
   @keyframes animate3
   {
@@ -604,3 +610,62 @@ background-position: 0;
           transform: translateX(0%);
       }
   }
+
+  .seat-two {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    box-shadow: #081e24;
+    color: orange;
+    font-size: 20px;
+    text-shadow: 0 0 10px orange,
+                  0 0 20px orange,
+                  0 0 40px orange,
+                  0 0 80px orange,
+                  0 0 160px orange;
+    background: #081e24;
+    position: flex;
+    justify-content: center;
+  }
+  
+  .player-two-icon-box-small {
+    width: 75px;
+    height: 75px;
+    border: 3px solid orange;
+    border-radius: 100px;
+    margin: 0 auto;
+
+    display: flex; /* create a flex container */
+  justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
+
+
+  }
+    @keyframes animate3
+    {
+        0%
+        {
+            transform: translateX(-100%);
+        }
+        100%
+        {
+            transform: translateX(100%);
+        }
+    }
+    @keyframes animate4
+    {
+        0%
+        {
+            transform: translateX(-200%);
+        }
+        100%
+        {
+            transform: translateX(0%);
+        }
+    }
+
+    .fa-solid fa-user fa-2xl {
+      position: absolute;
+      bottom: -65%;
+      right: 100%;
+    }
+

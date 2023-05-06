@@ -8,14 +8,6 @@
 </head>
 <body onload="parent.init()">
 <div class="game">
-      <h2>
-          <script type="text/javascript">
-            var number = localStorage.getItem("oneName")
-            console.log(number)
-            document.write(number)
-          </script>
-      </h2>
-
       <i class="fa-solid fa-robot"></i>
       
         
@@ -23,16 +15,17 @@
   <div class="container">
         
     <div class = "seat">
-      <div class="player-one-icon-box-small"></div>
+      <div class="player-one-icon-box-small">
+        <i class="fa-solid fa-user fa-2xl" style="color: #ffffff;"></i>
+      </div>
         <div class ="name-box"><div class = "name">
           <script type="text/javascript">
             var number = localStorage.getItem("oneName")
             console.log(number)
             document.write(number)
           </script>
-
         </div>
-        
+      </div>
         
         <div class = "chips">
           <script type="text/javascript">
@@ -41,7 +34,7 @@
             document.write(number)
           </script>
         </div>
-      </div>
+    </div>
 
       <div id="onehand0" class="card">
 		    <div id="onehand0-suit" class="suit"></div>
@@ -54,7 +47,6 @@
 		    <div id="onehand1-rank1" class="rank-bottom"></div>
         <div id="onehand1-rank2" class="rank-top"></div>
       </div>
-    </div>
 
     <div class="table">
 			<div id="flop0" class="river">
@@ -167,6 +159,30 @@
             {{ twohand[1].rank }}
           </div>
         </div>
+
+        <div class = "seat-two">
+          <div class="player-two-icon-box-small">
+            <i class="fa-solid fa-user fa-2xl" style="color: #ffffff;"></i>
+          </div>
+            <div class ="name-box"><div class = "name">
+              <script type="text/javascript">
+                var number = localStorage.getItem("twoName")
+                console.log(number)
+                document.write(number)
+              </script>
+            </div>
+          </div>
+            
+            <div class = "chips">
+              <script type="text/javascript">
+                var number = localStorage.getItem("twoBuy")
+                console.log(number)
+                document.write(number)
+              </script>
+            </div>
+        </div>
+
+
 	    </div>
 
 
