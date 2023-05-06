@@ -5,7 +5,7 @@ def parse_game_state_win(game_state):
     board = []
     for i in list(game_state["players"]):
         hole = []
-        for j in i["cards"]:
+        for j in i["hand"]:
             hole.append(parse_card(j))
         players.append(Player(i["id"],hole))
     for j in list(game_state["board"]):
