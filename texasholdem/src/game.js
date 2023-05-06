@@ -69,7 +69,8 @@ class Card {
 
 class Player {
 
-    constructor(name) {
+    constructor(id, name) {
+        this.id = id, 
         this.name = name;
         this.hand = [];
         this.currentBet = 0;
@@ -78,6 +79,13 @@ class Player {
         this.currentAction = '';
         this.score = 0;
 
+    }
+
+    getName() {
+        return this.name;
+    }
+    setName(name) {
+        this.name = name;
     }
 
     getHand() {
@@ -100,6 +108,7 @@ class Player {
     setMoney(money) {
 
         this.money = money;
+        gui_update_money(this.id);
     }
 
     setBet(bet) {
@@ -155,8 +164,8 @@ class Player {
     function getBoard() {
         return this.board;
     }
-    function addPlayer(name) {
-        this.players.push(new Player(name));
+    function addPlayer(id,name) {
+        this.players.push(new Player(id, name));
 
     }
     function getPlayers() {
@@ -184,14 +193,14 @@ class Player {
         return cardvalue;
     }
 
-    function setup() {
+   async function setup() {
 
         this.deck.reset();
         this.deck.shuffle();
         //get player names for 3 players
-        this.addPlayer(localStorage.getItem("oneName"));
-        this.addPlayer(localStorage.getItem("twoName"));
-        this.addPlayer("Bot"); 
+        this.addPlayer(0, localStorage.getItem("oneName"));
+        this.addPlayer(1, localStorage.getItem("twoName"));
+        this.addPlayer(2, "Bot"); 
         this.dealCards();
         this.round = 0;
        
@@ -212,7 +221,7 @@ class Player {
         
         this.alivePlayers = this.players.slice();
         //flop();
-        mainGame();
+        await mainGame();
     }
     function printBoard() {
         //this.text = "Board: " + this.board + "\n" + this.players[0].name + "'s hand: " + this.players[0].getHand() + "\n" + this.players[1].name + "'s hand: " + this.players[1].getHand() + "\n" + this.players[2].name + "'s hand: " + this.players[2].getHand() + "\n" +"Pot: " + this.pot + "\n" +"Bet: " + this.bet + "\n" + this.players[0].name + "'s money: " + this.players[0].getMoney() + "\n" + this.players[1].name + "'s money: " + this.players[1].getMoney() + "\n" + this.players[2].name + "'s money: " + this.players[2].getMoney();
@@ -254,7 +263,7 @@ class Player {
 
         //deal 1 card to the board
         this.board.push(this.deck.deal());
-        await setTimeout("gui_lay_table_card(" +3+")", ( 100 ))
+        await setTimeout("gui_lay_table_card(" +3+")", ( 1000))
         this.printBoard();
         //this.bettingRound();
         if (getAlive() > 1) await setTimeout("mainGame()", 1000);
@@ -262,17 +271,17 @@ class Player {
         console.log('turn done');
     }
 
-    function river() {
+    async function river() {
         this.round = 4;
         console.log('river');
         this.bet = 0;
         //deal 1 card to the board
         this.board.push(this.deck.deal());
-        setTimeout("gui_lay_table_card(" +4+ ")", (1000 ))
+        await setTimeout("gui_lay_table_card(" +4+ ")", (1000 ))
         this.printBoard();
         //this.bettingRound();
-        if (getAlive() > 1) setTimeout("mainGame()", 1000);
-        else setTimeout("ready_to_move()", 999 );
+        if (getAlive() > 1) await setTimeout("mainGame()", 1000);
+        else await setTimeout("ready_to_move()", 999 );
         console.log('river done');
     }
 
@@ -280,16 +289,25 @@ class Player {
         this.round = 5;
         console.log('showdown');
         //showdown
+        gui_update_text("Showdown!");
+        //print the players hands to the gui
+        var test = "";
+        for (let i = 0; i < this.players.length; i++) {
+            test += this.players[i].name + "'s hand: [" + convert_card(this.players[i].getHand()[0]) + "," + convert_card(this.players[i].getHand()[1]) + "] \n";
+        }
+        gui_update_text(test)
         this.determineWinner();
         console.log('showdown done');
 
     }
 
-    function mainGame() {
+    async function mainGame() {
         var up_index = 0;
+        console.log("PLAYER NAME: " + players[current_bettor_index].getName())
         if (players[current_bettor_index].getAction() == 'fold') {
             up_index = 1;
         }
+      
         else if (players[current_bettor_index].getAction() == 'option' || players[current_bettor_index].getAction() == '') {
             console.log("prompting " + players[current_bettor_index].name)
             //check if current bettor is bot
@@ -306,7 +324,7 @@ class Player {
                 console.log(players[current_bettor_index].currentBet)
                 if (to_call > players[current_bettor_index].money)
                 to_call = players[current_bettor_index].money;
-                if (to_call == 0) {
+                if (bet== 0) {
                     call_button_text = "Check";
                     fold_button_text = "";
                     bet_button_text  = "Bet";
@@ -315,7 +333,8 @@ class Player {
             if(call_button_text == "Raise") gui_setup_buttons(fold_button_text, call_button_text, bet_button_text, fold, call, raise)
             else gui_setup_buttons(fold_button_text, call_button_text, bet_button_text, fold, call, bets)
                 var player = players[current_bettor_index]
-                gui_update_text( "The table shows " + board + "\n" + "The pot is " + this.pot + "\n" + "The current bet is " + this.bet + "\n" + "Your current bet is " + player.getBet() + "\n" +"Your current hand is " + player.getHand() + "." + player.name + " what would you like to do?")
+                var text = "The pot is $" + this.pot + "\n" + "The current bet is $" + bet + "\n" + "Your current bet is $" + player.getBet() + "\n" +"Your current hand is [" + convert_card(player.getHand()[0]) + ", " + convert_card(player.getHand()[1])+  "]." + "\n" + player.name+ ", what would you like to do?"
+                await setTimeout(gui_update_text(text), 3000)
                 
             }
         }
@@ -339,16 +358,16 @@ class Player {
       if (can_break) {
           console.log("ready to move on")
           console.log("money " + players[0].money);
-        setTimeout("ready_to_move()", 999 );
+        await setTimeout("ready_to_move()", 999 );
       }
       else{
           console.log("recalling main")
-        setTimeout("mainGame()", 999 );
+        await setTimeout("mainGame()", 999 );
       }
 
     }
     
-    function ready_to_move() {
+    async function ready_to_move() {
         var alive = getAlive();
         
         //check end of game
@@ -370,9 +389,9 @@ class Player {
 //               // if (players[i].currentAction != "fold" ) 
 
         if (alive < 2)running= 1;
-        if (!board[0]) flop();
-        else if (!board[3]) turn();
-        else if (!board[4]) river();
+        if (!board[0]) await flop();
+        else if (!board[3]) await turn();
+        else if (!board[4]) await river();
         
     }
     async function determineWinner() {
@@ -440,7 +459,7 @@ class Player {
     }
     function promptPlayer(player) {
         
-       gui_update_text( "The table shows " + this.board + "\n" + "The pot is " + this.pot + "\n" + "The current bet is " + this.bet + "\n" + "Your current bet is " + player.getBet() + "\n" +"Your current hand is " + player.getHand() + "." + player.name + " what would you like to do?")
+       gui_update_text( "The pot is " + this.pot + "\n" + "The current bet is " + this.bet + "\n" + "Your current bet is " + player.getBet() + "\n" +"Your current hand is " + player.getHand() + "." + player.name + " what would you like to do?")
         
     
 //       let action = 'bet'
@@ -546,7 +565,7 @@ class Player {
 
         //get possible actions for bot to take
         var possible_actions = []
-        if (players[current_bettor_index].currentBet == bet) {
+        if (bet == 0) {
             possible_actions.push("bet")
             possible_actions.push("check")
             possible_actions.push("fold")
@@ -590,11 +609,12 @@ class Player {
             //this.promptPlayer(player);
             return;
         }
-        player.setMoney(player.getMoney() - this.bet);
+        player.setMoney(player.getMoney() - bet);
         player.setBet(bet);
         pot += bet;
         actions.push('bet');
         player.updateAction('bet')
+        gui_update_text(player.name + " bet.")
         current_bettor_index = get_position(current_bettor_index,1);
 
     }
@@ -627,7 +647,7 @@ class Player {
         actions.push('fold');
         player.updateAction('fold')
         current_bettor_index = get_position(current_bettor_index,1);
-        gui_update_text(player.name + "folded.")
+        gui_update_text(player.name + " folded.")
     }
 
 
@@ -637,12 +657,12 @@ class Player {
         var player = players[current_bettor_index]
         
 
-        if (bet - player.getBet() == 0) {
+        if (bet == 0) {
           
         
             actions.push('check');
             player.updateAction('check')
-            gui_update_text(player.name + "checked.")
+            gui_update_text(player.name + " checked.")
             current_bettor_index = get_position(current_bettor_index,1);
             return;
             //check instead
@@ -677,7 +697,7 @@ class Player {
         player.setBet(bet);
         actions.push('call');
         player.updateAction('call')
-        gui_update_text(player.name + "called.")
+        gui_update_text(player.name + " called.")
         current_bettor_index = get_position(current_bettor_index,1);
            
         
@@ -718,7 +738,7 @@ class Player {
         bet += raiseAmt;
         actions.push('raise');
         player.updateAction('raise')
-        gui_update_text(player.name + "raised.")
+        gui_update_text(player.name + " raised.")
         current_bettor_index = get_position(current_bettor_index,1);
 
     }  
@@ -732,7 +752,7 @@ class Player {
         }
         actions.push('check');
         player.updateAction('check')
-        gui_update_text(player.name + "checked.")
+        gui_update_text(player.name + " checked.")
         current_bettor_index = get_position(current_bettor_index,1);
 
     }
@@ -756,6 +776,22 @@ class Player {
         maindiv.style.visibility = 'visible';
     }
   
+    function gui_lay_player_card(n) {
+        var suitid = "player" + n + "-suit";
+        var suitdiv = document.getElementById(suitid);
+        suitdiv.innerHTML=board[n].suit;
+        
+        var rankid = "player" + n + "-rank1";
+        var rankdiv = document.getElementById(rankid);
+        rankdiv.innerHTML=board[n].rank;
+        
+        var rankid1 = "player" + n + "-rank2";
+        var rankdiv1 = document.getElementById(rankid1);
+        rankdiv1.innerHTML=board[n].rank;
+        
+        var maindiv = document.getElementById("player" + n)
+        maindiv.style.visibility = 'visible';
+    }
     function init() {
         console.log("HELLO")
         setup()
@@ -810,6 +846,11 @@ class Player {
       update_button(raise, raise_text, raise_func);
     }
     
+    function gui_update_money(id) {
+        console.log("updating money")
+        var money = document.getElementById('money' + id);
+        money.innerHTML = players[id].getMoney();
+    }
 
 
 

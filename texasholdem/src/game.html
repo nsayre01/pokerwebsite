@@ -25,7 +25,7 @@
         </div>
       </div>
         
-        <div class = "chips">
+        <div id = "money2" class = "chips">
           <script type="text/javascript">
             var number = 1000
             console.log(number)
@@ -47,7 +47,7 @@
         </div>
       </div>
         
-        <div class = "chips">
+        <div id = "money0" class = "chips">
           <script type="text/javascript">
             var number = localStorage.getItem("oneBuy")
             console.log(number)
@@ -72,13 +72,10 @@
 			<div id="flop0" class="river">
         <div class="card">
 		      <div id="flop0-suit" class="suit">
-            {{ board[0].suit }}
           </div>
 		      <div id="flop0-rank1"class="rank-bottom">
-            {{ board[0].rank }}
           </div>
           <div id="flop0-rank2"class="rank-top">
-            {{ board[0].rank }}
           </div>
         </div>
           </div>
@@ -97,41 +94,32 @@
 			    <div id="flop2" class="river">
             <div class="card">
 		      <div id="flop2-suit" class="suit">
-            {{ board[2].suit }}
           </div>
 		      <div id="flop2-rank1"class="rank-bottom">
-            {{ board[3].rank }}
           </div>
           <div id="flop2-rank2"class="rank-top">
-            {{ board[3].rank }}
           </div>
         </div>
 
           </div>
-			    <div id="turn" class="river">
+			    <div id="flop3" class="river">
             <div class="card">
-		          <div class="suit">
-                {{ board[4].suit }}
-              </div>
-		        <div class="rank-bottom">
-              {{ board[4].rank }}
-            </div>
-            <div class="rank-top">
-              {{ board[4].rank }}
-            </div>
+		      <div id = "flop3-suit" class="suit">
           </div>
-                </div>
-			    <div id="river" class="river">
+		      <div id = "flop3-rank1" class="rank-bottom">
+          </div>
+          <div id = "flop3-rank2" class="rank-top">
+          </div>
+        </div>
+          </div>
+			    <div id="flop4" class="river">
                 
           <div class="card">
-		        <div class="suit">
-              {{ board[5].suit }}
+		        <div id="flop4-suit" class="suit">
             </div>
-		        <div class="rank-bottom">
-              {{ board[5].rank }}
+		        <div id = "flop4-rank1" class="rank-bottom">
             </div>
-            <div class="rank-top">
-              {{ board[5].rank }}
+            <div id = "flop4-rank2"  class="rank-top">
             </div>
           </div>
 
@@ -156,28 +144,16 @@
 
 		    </div>
 
-        <div class="card">
-		      <div class="suit">
-            {{ twohand[0].suit }}
-          </div>
-		      <div class="rank-bottom">
-            {{ twohand[0].rank }}
-          </div>
-          <div class="rank-top">
-            {{ twohand[0].rank }}
-          </div>
+        <div id="onehand2" class="card">
+          <div id="onehand2-suit" class="suit"></div>
+          <div id="onehand2-rank1" class="rank-bottom"></div>
+          <div id="onehand2-rank2" class="rank-top"></div>
         </div>
-
-        <div class="card">
-		      <div class="suit">
-            {{ twohand[1].suit }}
-          </div>
-		      <div class="rank-bottom">
-            {{ twohand[1].rank }}
-          </div>
-          <div class="rank-top">
-            {{ twohand[1].rank }}
-          </div>
+            
+        <div id="onehand3" class="card">
+          <div id="onehand3-suit" class="suit"></div>
+          <div id="onehand3-rank1" class="rank-bottom"></div>
+          <div id="onehand3-rank2" class="rank-top"></div>
         </div>
 
         <div class = "seat-two">
@@ -193,7 +169,7 @@
             </div>
           </div>
             
-            <div class = "chips">
+            <div id = "money1" class = "chips">
               <script type="text/javascript">
                 var number = localStorage.getItem("twoBuy")
                 console.log(number)
@@ -208,10 +184,7 @@
 
 
 
-      <!-- Button to go back to home menu -->
-      <a href="home.html">
-      <button class="homebutton">HOME</button>
-      </a>
+      
     </div>
    
 </body>
