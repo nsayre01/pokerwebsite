@@ -1,27 +1,11 @@
-#message {
-  background-color: #081e24;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5%;
-  width: 10vw;
-  border-radius: 10px;
 
-  position: absolute;
-  bottom: -65%;
-  right: 32.5%;
+.message {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
-.messagecontiner {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #ccc;
-  padding: 20px;
-  margin: auto;
-}
-
-
 
 .card {
     width: 60px;
@@ -93,11 +77,9 @@ bottom: -170px; /* set the distance from the bottom edge of the parent container
 left: -170px; /* set the distance from the left edge of the parent container */
 border: 5px solid purple;
 background-color: transparent;
-border-radius: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+padding: 5px;
+display: flex; /* display the child elements vertically */
+justify-content: center; /* center the child elements horizontally */
 }
 
 .button-box button {
@@ -107,8 +89,6 @@ border: none;
 padding: 10px;
 cursor: pointer;
 font-weight: bold;
-text-align: center;
-bottom: -20px; 
 }
 
 .button-box button:hover {
@@ -117,14 +97,15 @@ box-shadow: 0 5px 50px 0 purple inset,
 }
 
 .button-box-two {
-  position: absolute; /* position the button-box absolutely */
-  bottom: -170px; /* set the distance from the bottom edge of the parent container */
-  right: -170px; /* set the distance from the left edge of the parent container */
-  border: 5px solid orange;
-  background-color: transparent;
-  display: flex; /* display the child elements vertically */
-  justify-content: center; /* center the child elements horizontally */
-  border-radius: 20px;
+position: absolute; /* position the button-box absolutely */
+bottom: -170px; /* set the distance from the bottom edge of the parent container */
+right: -170px; /* set the distance from the left edge of the parent container */
+border: 5px solid blue;
+background-color: transparent;
+padding: 5px;
+display: flex; /* display the child elements vertically */
+justify-content: center; /* center the child elements horizontally */
+border-radius: 10px;
 }
 
 .button-box-two button {
@@ -562,6 +543,8 @@ background-position: 0;
 
 
 .seat {
+    width: 1000px;
+    height: 50px;
   margin-top: 50px;
   margin-bottom: 10px;
   box-shadow: #081e24;

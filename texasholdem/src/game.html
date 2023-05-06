@@ -2,53 +2,63 @@
 
 <head>
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>game</title> 
     <script src="game.js"></script>
 </head>
 <body onload="parent.init()">
 <div class="game">
-      <h2><script type="text/javascript">
-          var number = localStorage.getItem("oneName")
-         console.log(number)
-        document.write(number)
-      </script></h2>
+      <h2>
+          <script type="text/javascript">
+            var number = localStorage.getItem("oneName")
+            console.log(number)
+            document.write(number)
+          </script>
+      </h2>
+
+      <i class="fa-solid fa-robot"></i>
       
         
 
-      <div class="container">
+  <div class="container">
         
-        <div class = "seat">
-            <div class="player-one-icon-box-small"></div>
-            <div class ="name-box"><div class = "name"><script type="text/javascript">
-          var number = localStorage.getItem("oneName")
-         console.log(number)
-        document.write(number)
-      </script></div><div class = "chips"><script type="text/javascript">
-          var number = localStorage.getItem("oneBuy")
-         console.log(number)
-        document.write(number)
-      </script></div></div>
-        <div id="onehand0" class="card">
-		      <div id="onehand0-suit" class="suit">
-          </div>
-		      <div id="onehand0-rank1" class="rank-bottom">
-          </div>
-          <div id="onehand0-rank2" class="rank-top">
-          </div>
+    <div class = "seat">
+      <div class="player-one-icon-box-small"></div>
+        <div class ="name-box"><div class = "name">
+          <script type="text/javascript">
+            var number = localStorage.getItem("oneName")
+            console.log(number)
+            document.write(number)
+          </script>
+
         </div>
+        
+        
+        <div class = "chips">
+          <script type="text/javascript">
+            var number = localStorage.getItem("oneBuy")
+            console.log(number)
+            document.write(number)
+          </script>
+        </div>
+      </div>
+
+      <div id="onehand0" class="card">
+		    <div id="onehand0-suit" class="suit"></div>
+		    <div id="onehand0-rank1" class="rank-bottom"></div>
+        <div id="onehand0-rank2" class="rank-top"></div>
+      </div>
           
-        <div id="onehand1" class="card">
-		      <div id="onehand1-suit" class="suit">
-          </div>
-		      <div id="onehand1-rank1" class="rank-bottom">
-          </div>
-          <div id="onehand1-rank2" class="rank-top">
-          </div>
-        </div>
-          </div>
-		    <div class="table">
-			    <div id="flop0" class="river">
-            <div class="card">
+      <div id="onehand1" class="card">
+		    <div id="onehand1-suit" class="suit"></div>
+		    <div id="onehand1-rank1" class="rank-bottom"></div>
+        <div id="onehand1-rank2" class="rank-top"></div>
+      </div>
+    </div>
+
+    <div class="table">
+			<div id="flop0" class="river">
+        <div class="card">
 		      <div id="flop0-suit" class="suit">
             {{ board[0].suit }}
           </div>
@@ -87,33 +97,39 @@
 
           </div>
 			    <div id="turn" class="river">
-                <div class="card">
-		      <div class="suit">
-            {{ board[4].suit }}
+            <div class="card">
+		          <div class="suit">
+                {{ board[4].suit }}
+              </div>
+		        <div class="rank-bottom">
+              {{ board[4].rank }}
+            </div>
+            <div class="rank-top">
+              {{ board[4].rank }}
+            </div>
           </div>
-		      <div class="rank-bottom">
-            {{ board[4].rank }}
-          </div>
-          <div class="rank-top">
-            {{ board[4].rank }}
-          </div>
-        </div>
                 </div>
 			    <div id="river" class="river">
                 
-                <div class="card">
-		      <div class="suit">
-            {{ board[5].suit }}
+          <div class="card">
+		        <div class="suit">
+              {{ board[5].suit }}
+            </div>
+		        <div class="rank-bottom">
+              {{ board[5].rank }}
+            </div>
+            <div class="rank-top">
+              {{ board[5].rank }}
+            </div>
           </div>
-		      <div class="rank-bottom">
-            {{ board[5].rank }}
+
+            </div>
+
+          
+          <div class="messagecontainer">
+            <p id="message"></p>
           </div>
-          <div class="rank-top">
-            {{ board[5].rank }}
-          </div>
-        </div>
-                </div>
-        <h2 id="message"></h2>
+
           <div id ="actionss0" class="button-box" >
             <button id = "call" class="call">Call</button>
             <button id = "raise" class="raise">Raise</button>
